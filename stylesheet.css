@@ -1,0 +1,48 @@
+body{
+    background-color: #fdfd96;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nintendo 64 Controller */
+.n64-Container{
+    height: 550px;
+    width: 550px;
+    border: solid 3px black;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.n64-Body{
+    background-color: #00ff00;
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-radius: 40% 40% 40% 40%;
+}
+.prong{
+    content: "";
+    background-color: #00ff00;
+    height: 250px;
+    width: 100px;
+    position: relative;
+    border-radius: 10% 0% 50% 50%;
+}
+.prong-l{
+    top: 125px;
+}
+.prong-m{
+    left: 200px;
+    bottom: 50px;
+}
+.prong-r{
+    left: 400px;
+    bottom: 375px;
+}
