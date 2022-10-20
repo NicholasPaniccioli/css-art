@@ -18,14 +18,34 @@ body{
 }
 .n64-Body{
     background-color: #00ff00;
-    height: 200px;
+    height: 230px;
     width: 500px;
     position: absolute;
     margin: auto;
     right: 0;
     left: 0;
-    top: 0;
+    top: 30px;
     border-radius: 40% 40% 40% 40%;
+}
+.n64-Body:before{
+    content: "";
+    position: absolute;
+    background-color: #00ff00;
+    height: 100px;
+    width: 240px;
+    top: -30px;
+    left: 120px;
+    border-radius: 35% 35% 0 0;
+}
+.n64-Body:after{
+    content:"";
+    position: absolute;
+    height: 230px;
+    width: 500px;
+    box-shadow: 0px 7px 0px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 40% 40%;
+    top: 0;
+    z-index: -1;
 }
 .prong{
     content: "";
@@ -33,16 +53,31 @@ body{
     height: 250px;
     width: 100px;
     position: relative;
-    border-radius: 10% 0% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
 }
 .prong-l{
-    top: 125px;
+    top: 85px;
+    left: -10px;
+    z-index: -2;
 }
 .prong-m{
-    left: 200px;
-    bottom: 50px;
+    left: 190px;
+    bottom: 60px;
+    width: 60px;
+    border-radius: 0 0 0 100%;
+}
+.prong-m:before{
+    content: "";
+    position: absolute;
+    background-color: #00ff00;
+    width: 60px;
+    height: 250px;
+    left: 60px;
+    bottom: 0px;
+    border-radius: 0 0 100% 0;
 }
 .prong-r{
-    left: 400px;
-    bottom: 375px;
+    left: 410px;
+    bottom: 415px;
+    z-index: -2;
 }
