@@ -8,7 +8,6 @@ body{
 .n64-Container{
     height: 550px;
     width: 550px;
-    border: solid 3px black;
     position: absolute;
     margin: auto;
     right: 0;
