@@ -203,11 +203,21 @@ body{
     height: 30px;
     position: absolute;
     background-color: grey;
+    border: solid 2px rgba(0, 0, 0, 0.2);
     top: 45px;
     border-radius: 10%;
 }
 .dpad-64-v{
     transform: rotate(90deg);
+}
+.dpad-64-h:before{
+    content: "";
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    background-color: grey;
+    border: none;
+    z-index: 1;
 }
 .n64-logo{
     width: 200px;
