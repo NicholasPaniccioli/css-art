@@ -203,7 +203,8 @@ body{
     position: absolute;
     background-color: grey;
     border: solid 2px rgba(0, 0, 0, 0.2);
-    top: 45px;
+    top: 43px;
+    right: 7px;
     border-radius: 10%;
 }
 .dpad-64-v{
