@@ -156,10 +156,9 @@ body{
     box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 .n64-Yellows{
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
     position: absolute;
-    border: solid 2px black;
     margin: auto;
     left: 360px;
     right: 0;
@@ -167,4 +166,46 @@ body{
     bottom: 290px;
     transform: rotate(45deg);
 }
+.yellow{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
 
+}
+.yellow-r{
+    right: 0px;
+}
+.yellow-d{
+    right: 0;
+    bottom: 0;
+}
+.yellow-l{
+    left: 0;
+    bottom: 0;
+}
+.n64-DPad{
+    height: 100px;
+    width: 100px;
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2) inset;
+    position: absolute;
+    margin: auto;
+    left: 70px;
+    top: 90px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.dpad-64{   
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    background-color: grey;
+    top: 45px;
+    border-radius: 10%;
+}
+.dpad-64-v{
+    transform: rotate(90deg);
+}
