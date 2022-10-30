@@ -295,6 +295,7 @@ body{
     left: 0;
     top: 110px;
     border-radius: 30%;
+    z-index: 0;
 }
 .ps2-Body:before{
     content: "";
@@ -308,6 +309,7 @@ body{
     top: 0;
     bottom: 0;
     border-radius: 50%;
+    z-index: 1;
 }
 .ps2-Body:after{
     content: "";
@@ -321,6 +323,22 @@ body{
     top: 0;
     bottom: 0;
     border-radius: 50%;
+    z-index: 1;
+}
+.ps2-bumper{
+    background-color: rgb(30, 30, 30);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    top: -60px;
+    border-radius: 40% 40% 0% 0% / 25% 25% 0% 0%;
+}
+.ps2-bumper-l{
+    left: 30px;
+}
+.ps2-bumper-r{
+    right: 30px;
 }
 .ps2-handle{
     content: "";
@@ -351,6 +369,7 @@ body{
     left: 100px;
     top: 100px;
     border-radius: 50%;
+    z-index: 2;
 }
 .ps2-joystick-holder:before{
     content: "";
@@ -363,7 +382,7 @@ body{
     left: 165px;
     top: 0px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 2;
 }
 .ps2-joystick-container{
     height:130px;
