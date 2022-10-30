@@ -260,3 +260,97 @@ body{
     right: 12px;
     top: 0;
 }
+
+
+/* PS2 Controller  */
+.ps2-Container{
+    height: 550px;
+    width: 550px;
+    position: absolute;
+    margin: auto;
+    border: solid 2px black;
+    right: 0;
+    left: 0;
+    top: 1100px;
+    bottom: 0;
+}
+.ps2-Body{
+    background-color: rgb(30, 30, 30);
+    height: 160px;
+    width: 500px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 110px;
+    border-radius: 30%;
+}
+.ps2-Body:before{
+    content: "";
+    background-color: rgb(30, 30, 30);
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin: auto;
+    left: -15px;
+    top: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+.ps2-Body:after{
+    content: "";
+    background-color: rgb(30, 30, 30);
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin: auto;
+    right: -15px;
+    top: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+.ps2-handle{
+    content: "";
+    background-color: rgb(30, 30, 30);
+    height: 230px;
+    width: 200px;
+    position: relative;
+    border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+    z-index: -1;
+}
+.ps2-handle-l{
+    transform: rotate(15deg);
+    top: 70px;
+    left: -41px;
+}
+.ps2-handle-r{
+    transform: rotate(-15deg);
+    left: 341px;
+    bottom: 160px;
+}
+.ps2-joystick-holder{
+    background-color: rgb(30, 30, 30);
+    border: solid 1px black;
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    margin: auto;
+    left: 100px;
+    top: 100px;
+    border-radius: 50%;
+}
+.ps2-joystick-holder:before{
+    content: "";
+    background-color: rgb(30, 30, 30);
+    border: solid 1px black;
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    margin: auto;
+    left: 200px;
+    top: 0px;
+    border-radius: 50%;
+    z-index: 1;
+}
