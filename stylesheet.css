@@ -274,8 +274,19 @@ body{
     top: 1100px;
     bottom: 0;
 }
+.ps2-Container:before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 550px;
+    width: 10px;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
 .ps2-Body{
     background-color: rgb(30, 30, 30);
+    border: solid 2px;
     height: 160px;
     width: 500px;
     position: absolute;
@@ -349,8 +360,33 @@ body{
     width: 130px;
     position: absolute;
     margin: auto;
-    left: 200px;
+    left: 165px;
     top: 0px;
     border-radius: 50%;
     z-index: 1;
+}
+.ps2-joystick-container{
+    height:130px;
+    width: 300px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 211px;
+    z-index: 5;
+}
+.ps2-joystick{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 50%;
+    position: absolute;
+}
+.ps2-joystick-l{
+    left: 21px;
+    top: 23px;
+}
+.ps2-joystick-r{
+    right: 22px;
+    top: 23px;
 }
