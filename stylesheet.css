@@ -416,5 +416,66 @@ body{
     position: absolute;
     right: 50px;
     top: 130px;
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
+}
+.ps2-shapes{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(70, 70, 70) ;
+    position: absolute;
+    border-radius: 50%;
+    /* transform: rotate(-45deg); */
+}
+.ps2-t{
+    top: 0;
+    left: 0;
+    
+}
+.ps2-t:before{
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 28px solid green;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+.ps2-t:after{
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 20px solid rgb(70, 70, 70);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.ps2-c{
+    top: 0;
+    right: 0;
+}
+.ps2-c:before{
+    content:"";
+    height: 25px;
+    width: 25px;
+    border: solid 3px red;
+    border-radius: 50%;
+    position: absolute;
+    top: 6.5px;
+    right: 6.5px;
+}
+.ps2-x{
+    background-color: blue;
+    bottom: 0;
+    right: 0;
+
+}
+.ps2-s{
+    background-color: palevioletred;
+    bottom: 0;
+    left: 0;
+
 }
