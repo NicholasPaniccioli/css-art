@@ -362,11 +362,11 @@ body{
 .ps2-joystick-holder{
     background-color: rgb(30, 30, 30);
     border: solid 1px black;
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     position: absolute;
     margin: auto;
-    left: 100px;
+    left: 120px;
     top: 100px;
     border-radius: 50%;
     z-index: 2;
@@ -375,11 +375,11 @@ body{
     content: "";
     background-color: rgb(30, 30, 30);
     border: solid 1px black;
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     position: absolute;
     margin: auto;
-    left: 165px;
+    left: 137px;
     top: 0px;
     border-radius: 50%;
     z-index: 2;
@@ -395,17 +395,26 @@ body{
     z-index: 5;
 }
 .ps2-joystick{
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     background-color: rgb(70, 70, 70);
     border-radius: 50%;
     position: absolute;
 }
 .ps2-joystick-l{
-    left: 21px;
+    left: 41px;
     top: 23px;
 }
 .ps2-joystick-r{
-    right: 22px;
+    right: 42px;
     top: 23px;
+}
+.ps2-shapes-container{
+    height: 120px;
+    width: 120px;
+    border:solid 2px green;
+    position: absolute;
+    right: 50px;
+    top: 130px;
+    transform: rotate(45deg);
 }
