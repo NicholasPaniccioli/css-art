@@ -268,7 +268,6 @@ body{
     width: 550px;
     position: absolute;
     margin: auto;
-    border: solid 2px black;
     right: 0;
     left: 0;
     top: 1100px;
@@ -470,6 +469,7 @@ body{
     left: 8px;
     bottom: 4px;
     border-radius: 0 10% 0 0;
+    box-shadow: 2px -2px 1px 0 rgba(0, 0, 0, 0.5);
 }
 .dpad-ps2-u{
     transform: rotate(45deg);

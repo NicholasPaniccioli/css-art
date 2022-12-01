@@ -8,7 +8,7 @@ I'm a gamer at heart and it's a big part as to why I pursued software developmen
 I plan on making art for the controllers of consoles that I played growing up!
 More specifically (& in order of when I first played):
 - Nintendo 64 ✅
-- PlayStation 2
+- PlayStation 2 ✅
 - Nintendo Gamecube
 - ~~Nintendo Wii~~
 - ~~Playstation 3~~
